@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="@drawable/blur_background"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="30dp">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:text="Benvingut a"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:minHeight="60dp"
+            android:text="Crear compte"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btGoToLogin"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:minHeight="60dp"
+            android:text="Iniciar sessió"
+            android:textColor="@color/white"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btSkipNow"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:text="Entrar com a invitat"
+            android:textColor="@color/white"
+            app:strokeColor="@android:color/transparent"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
