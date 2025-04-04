@@ -6,13 +6,15 @@ La idea es usar GitHub Copilot para hacer preguntas y desarrollar nuevos temas s
 
 ## Estructura de Carpetas
 
-- **documentos soporte**: Aquí encontrarás documentos relevantes que se pueden usar como referencia.
-- **sugerencias**: Usa esta carpeta para agregar cualquier sugerencia que puedas tener sobre los documentos o el proyecto en general.
+- **Buzón De Ideas**: Usa esta carpeta para agregar cualquier sugerencia que puedas tener sobre los documentos o el proyecto en general.
+- **Código Sensores**: Aquí encontrarás códigos de ejemplo para usar los diferentes Sensores de medición de caudal de agua.
+- **Data Analysis**: Aquí encontrarás datos reales y etiquetados de consumo de agua residencial, y scripts para analizar y visualizarlos.
+- **Documentos Soporte**: Aquí encontrarás documentos relevantes que se pueden usar como referencia.
 
 ## Cómo Contribuir
 
-1. Revisa los documentos en la carpeta `documentos soporte`.
-2. Si tienes alguna sugerencia, agrégala a la carpeta `sugerencias`.
-3. Usa GitHub Copilot para hacer preguntas y desarrollar nuevos temas basados en los documentos que hemos proporcionado.
+1. Revisa los documentos en la carpeta `Documentos_Soporte`.
+2. Si tienes alguna sugerencia, agrégala a la carpeta `Buzón_De_Ideas`.
+3. Puedes usar GitHub Copilot para hacer preguntas y desarrollar nuevos temas basados en los documentos que hemos proporcionado.
 
 ¡Gracias por tu colaboración!
