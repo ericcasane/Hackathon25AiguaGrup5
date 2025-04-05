@@ -6,15 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".WelcomeFragment">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        android:background="@drawable/blur_background"
-        android:orientation="vertical"
-        android:layout_centerInParent="true"
-        android:padding="30dp">
-
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvWelcome"
@@ -22,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:gravity="center"
-            android:paddingTop="25dp"
+            android:paddingTop="150dp"
             android:text="Benvingut a"
             android:textColor="@color/black"
             android:textSize="34sp" />
@@ -30,45 +26,58 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="300px"
-            android:paddingBottom="80px"
+            android:layout_height="600px"
+            android:paddingBottom="300px"
             android:src="@drawable/aquactua_logo" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btCreateAccount"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/blue"
-            android:minHeight="50dp"
-            android:text="Crear compte"
-            android:textColor="@color/white"
-            app:cornerRadius="10dp" />
+            android:layout_margin="25dp"
+            android:layout_marginTop="2000dp"
+            android:background="@drawable/blur_background"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btGoToLogin"
-            style="@style/Widget.Material3.Button.OutlinedButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:minHeight="50dp"
-            android:text="Iniciar sessió"
-            android:textColor="@color/blue"
-            app:cornerRadius="10dp"
-            app:strokeColor="@color/blue"
-            app:strokeWidth="2dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/blue"
+                android:minHeight="60dp"
+                android:text="Crear compte"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:cornerRadius="10dp" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btSkipNow"
-            style="@style/Widget.Material3.Button.OutlinedButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:minHeight="10dp"
-            android:text="Entrar com a invitat"
-            android:textColor="@color/blue"
-            app:strokeColor="@android:color/transparent"
-            app:strokeWidth="2dp" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btGoToLogin"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:minHeight="60dp"
+                android:text="Iniciar sessió"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                app:cornerRadius="10dp"
+                app:strokeColor="@color/blue"
+                app:strokeWidth="2dp" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btSkipNow"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="10dp"
+                android:text="Entrar com a invitat"
+                android:textColor="@color/blue"
+                android:textSize="16sp"
+                app:strokeColor="@android:color/transparent"
+                app:strokeWidth="2dp" />
+
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>
