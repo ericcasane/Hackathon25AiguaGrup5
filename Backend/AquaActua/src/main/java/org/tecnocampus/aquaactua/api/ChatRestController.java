@@ -1,5 +1,6 @@
 package org.tecnocampus.aquaactua.api;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@Tag(name = "1. Chat", description = "Controller to manage AI chat")
 @Slf4j
 @RestController
 @RequestMapping("/chat")
