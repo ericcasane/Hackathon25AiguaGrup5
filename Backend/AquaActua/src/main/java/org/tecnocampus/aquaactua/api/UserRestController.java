@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.tecnocampus.aquaactua.application.UserService;
 import org.tecnocampus.aquaactua.domain.User;
 
-@Tag(name = "3. User" , description = "Controller to manage users")
+@Tag(name = "User" , description = "Controller to manage users")
 @RestController
 @RequestMapping("/user")
 public class UserRestController {

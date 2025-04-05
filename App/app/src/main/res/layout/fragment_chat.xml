@@ -8,35 +8,48 @@
     android:background="@color/white">
 
     <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/tvPoints"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/tvAnswer"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/tvPointsButton"
+    <EditText
+        android:id="@+id/etQuestion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/tvPoints"
         android:layout_margin="16dp"
         android:background="@drawable/rounded_background"
-        android:drawableStart="@drawable/baseline_search_24"
+        android:gravity="start|center_vertical"
+        android:hint="Pregunta el que vulguis..."
+        android:inputType="text"
+        android:imeOptions="actionSend"
         android:paddingStart="16dp"
         android:paddingTop="8dp"
         android:paddingEnd="16dp"
         android:paddingBottom="8dp"
-        android:text="Pregunta el que vulguis..."
         android:textColor="@color/black"
+        android:textColorHint="@color/blue"
         android:textSize="20sp" />
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/etQuestion">
 
     </FrameLayout>
-
-    <!-- Points Button/TextView -->
 
 </RelativeLayout>

@@ -8,7 +8,7 @@ import org.tecnocampus.aquaactua.domain.WaterUsageDTO;
 
 import java.util.List;
 
-@Tag(name = "2. Water Usage", description = "Controller to manage water usage")
+@Tag(name = "Water Usage", description = "Controller to manage water usage")
 @RestController
 @RequestMapping("/api/water-usage")
 public class WaterUsageController {

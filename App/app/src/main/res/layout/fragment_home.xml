@@ -39,7 +39,7 @@
         android:paddingTop="8dp"
         android:paddingEnd="16dp"
         android:paddingBottom="8dp"
-        android:text="256 puntos"
+        android:text="256 gotes"
         android:textColor="@color/black"
         android:textSize="20sp" />
 
