@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void loadHomeFragment() {
         getSupportFragmentManager().beginTransaction()
-                //.replace(R.id.fragmentContainer, new HomeFragment())
+                .replace(R.id.fragmentContainer, new HomeFragment())
                 .commit();
         showBottomNavigationView();
     }
