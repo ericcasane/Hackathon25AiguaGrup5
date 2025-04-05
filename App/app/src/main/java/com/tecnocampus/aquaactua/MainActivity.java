@@ -40,21 +40,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void loadRegisterFragment() {
-        getSupportFragmentManager().beginTransaction()
-                .setCustomAnimations(R.anim.slide_up, R.anim.slide_down, 0, 0)
-                //.add(R.id.fragmentContainer, new RegisterFragment())
-                .addToBackStack(null)
-                .commit();
-    }
-
-    public void loadSignInFragment() {
-        getSupportFragmentManager().beginTransaction()
-                //.replace(R.id.fragmentContainer, new LogInFragment())
-                .addToBackStack(null)
-                .commit();
-    }
-
     public void loadHomeFragment() {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragmentContainer, new HomeFragment())

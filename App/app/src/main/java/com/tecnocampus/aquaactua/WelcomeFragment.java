@@ -41,11 +41,7 @@ public class WelcomeFragment extends Fragment implements View.OnClickListener {
         Button b = (Button) v;
         MainActivity mainActivity = (MainActivity) getActivity();
         if (mainActivity != null) {
-            if (b.getId() == R.id.btCreateAccount)
-                mainActivity.loadRegisterFragment();
-            if (b.getId() == R.id.btGoToLogin)
-                mainActivity.loadSignInFragment();
-            else if (b.getId() == R.id.btSkipNow)
+            if (b.getId() == R.id.btSkipNow)
                 mainActivity.loadHomeFragment();
         }
     }
